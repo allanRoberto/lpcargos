@@ -1,0 +1,51 @@
+/*
+ Theme Name:   Divi Child Theme
+ Theme URI:    http://elegantthemes.com/
+ Description:  Divi Child Theme
+ Author:       ElegantThemes
+ Author URI:   http://elegantthemes.com
+ Template:     Divi
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ Text Domain:  divi-child-theme
+*/
+/* Body */
+/* Header */
+/* Top Header */
+/* Main Header */
+/* Vertical Navigation */
+/* Header Style */
+/* Fullwidth Header */
+/* Hide Header */
+/* Hide Logo */
+/* Fullwidth Top Header */
+/* Hide Search Icon */
+#top_menu .current_page_item a {
+  border-bottom: 3px solid #F0542D;
+}
+
+/* Button */
+/* Input */
+/* Footer */
+#main-footer {
+  background: url("img/footer-bg.jpg") center top no-repeat #34373c;
+}
+
+#footer-widgets .footer-widget li:before {
+  content: none !important;
+}
+
+.text-enterprise-home h1:first-letter {
+  font-size: 30px !important;
+  height: 30px;
+  line-height: 1em;
+  padding: 7px 8px;
+  border: 2px solid #F0542D;
+  width: auto;
+  color: #F0542D;
+  margin: -0.04em 5px -0.07em 0;
+}
+
+/*# sourceMappingURL=style.css.map */
