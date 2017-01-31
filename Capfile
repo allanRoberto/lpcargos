@@ -36,16 +36,16 @@ namespace :deploy do
         configuration = <<-EOF
 <?php
 
-  define('DB_NAME', '#{short_name(domain)}');
+  define('DB_NAME', 'artezzo32');
 
   /** MySQL database username */
-  define('DB_USER', '#{tiny_name(domain)}');
+  define('DB_USER', 'artezzo32');
 
   /** MySQL database password */
-  define('DB_PASSWORD', '#{db_pass}');
+  define('DB_PASSWORD', '419300al');
 
   /** MySQL hostname */
-  define('DB_HOST', 'localhost');
+  define('DB_HOST', 'mysql.artezzo.com.br');
 
 EOF
 
